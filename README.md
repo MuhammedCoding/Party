@@ -1,0 +1,2 @@
+# Party
+Sample Jquery Exercise
