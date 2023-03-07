@@ -1,0 +1,137 @@
+/*========== Global ========== */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root {
+    --main-color:#D62E33;
+    --bg-main-color:#E68285;
+    --bg-secondary-color:#CCCCCC;
+    --btn-primary-color:#0FB2DD;
+}
+a {
+    text-decoration: none;
+}
+a,
+a:hover {
+    color: inherit;
+}
+
+textarea:focus, input:focus{
+    outline: none;
+}
+/*==========Start Nav Bar ========== */
+
+nav {
+    background-color: var(--bg-secondary-color);
+    width: 0;
+}
+
+nav li {
+    margin-bottom: 25px;
+}
+/*========== End Nav Bar ========== */
+
+nav a,
+nav span {
+    cursor: pointer;
+    transition: color 0.5s;
+}
+
+nav a:hover,
+nav span:hover {
+    color : var(--main-color);
+}
+/*========== Start Home  ========== */
+.landing {
+    background-image: url("../images/events-heavenly-header.jpg");
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+}
+.landing .overlay {
+    background-color: rgba(214, 46, 51, 0.6);
+    width: 100%;
+    height: 100%;
+}
+
+.landing-caption {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.landing .side-nav {
+    cursor: pointer;
+}
+
+.landing .overlay,
+.landing .container-fluid {
+    display:flex;
+    align-items: center;
+}
+.landing h1 {
+    font-size: 3.75rem;
+}
+/*==========End Home ========== */
+
+/*START SINGERS*/
+
+.singers .container {
+    background-color: var(--bg-main-color);
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+    padding:10px 0 !important;
+}
+
+.singers p {
+    background-color: var(--bg-secondary-color);
+    display: none;
+}
+
+.singers p:last-child {
+    margin-bottom: 0!important;
+}
+
+.singer:last-child {
+    background-color: tan;
+}
+
+/*start stat*/
+
+.statistics {
+    background: url(../images/invitation-2508607__340.jpg);
+    background-size: 100% 100%;
+    background-position: center center;
+}
+
+.statistics .overlay {
+    background-color: rgba(214, 46, 51, 0.6);
+}
+
+.statistics span {
+    padding: 60px 80px;
+}
+
+/*start contact */
+
+.contact-details .detail,
+.contact-details{
+    padding-bottom: 28px;
+}
+
+.social-media span {
+    font-size: 1.5rem;
+    color: #999;
+    border: 1px solid #999;
+    padding: 12px;
+    transition: all 0.5s;
+    margin-right: 12px;
+}
+
+.social-media span:hover {
+    color: white;
+    background-color: var(--main-color);
+}
